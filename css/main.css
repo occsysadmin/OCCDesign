@@ -59,6 +59,7 @@ a {
 
 a:hover {
     border-bottom: 1px solid #008bce;
+    padding: 0 0 .3em 0;
 }
 
 img {
@@ -73,13 +74,17 @@ button a {
     color: #d04e8a;
 }
 
-button a:hover {
+button:hover {
+   border-color: #008bce;
+    background: #008bce;
+    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
 
 
 
-.cta, .secondary {
+button {
     background-color: #fff;
     border: 1px solid #d04e8a;
     padding: 1em 1.5em;
@@ -91,6 +96,10 @@ button a:hover {
     outline: none;
 }
 
+button a:hover {
+    color: #fff;
+}
+
 .secondary {
      border: 1px solid #008bce;
 }
@@ -100,15 +109,6 @@ button a:hover {
 }
 
 
-button:hover {
-    background-color: #fff;   
-   
-}
-
-button a:hover {
-     color: #d04e8a;    
-     border: none;
-}
 
 /* ---- Layout Containers ---- */
 
@@ -119,8 +119,8 @@ button a:hover {
 	padding-bottom: .5em;
 }
 
-.main-header, .main-nav a {
-	padding: 10px 15px;
+.main-header, .main-header a {
+	margin: 1em;
 }
 
 
@@ -218,10 +218,5 @@ article h2 {
 
 .tagline {
     font-weight: 300;
-}
-
-.tagline a {
-    color: #fff;
-    border-bottom: 1px solid #fff;
 }
 
