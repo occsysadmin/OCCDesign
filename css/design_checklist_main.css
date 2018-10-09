@@ -121,11 +121,11 @@ p {
 }
 
 .tabAccessibility {
-    background: #9C27B0;    
+    background: rgba(0, 150, 136,.8);    
 }
 
 .tabDesign {
-    background: #2196F3;    
+    background: #008bce;    
 }
 
 .tabFeedback {
@@ -133,15 +133,15 @@ p {
 }
 
 .tabCopywriting {
-    background: #FF5722;
+    background: #d04e8a;
 }
 
 .tabDevelopment {
-    background: #4CAF50;
+    background: #f47623;
 }
 
 .tabPerformance {
-    background: #E91E63; 
+    background: #00699b; 
 }
 
 
