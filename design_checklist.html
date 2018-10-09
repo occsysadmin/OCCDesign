@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <!-- Chrome, Firefox OS and Opera theme colours -->
+    <meta name="theme-color" content="#383738">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#383738">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#383738">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/design_checklist_main.css">
+    <link rel="stylesheet" href="css/design_checklist_mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+      <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <title>Project Design Checklist</title>
+  </head>
+  <body>
+      
+   <header role="banner"> 
+      <h1>Project Design Checklist</h1>
+        
+        <div id="buttons">
+            
+            <button class="reset" value="reset">Reset</button>
+            
+            
+            <button class="cta"><a href="javascript:window.print()">Print the checklist</a></button>
+
+            
+        </div>
+       
+    </header>
+     
+
+  
+      
+      
+      <div id="wrapper">         
+           
+        <!-- Accessibility card start -->
+      
+          <div class="tab tabAccessibility">
+              <h2 class="subjectArea">Accessibility</h2>
+          </div>
+          
+          <div class="cards">
+               <div class="img">
+                    <img class="left" src="images/wcag.svg" alt="WCAG 2.1 AA standard">
+                </div>
+              
+              <div class="card-content">
+                  <h2>WCAG 2.1 AA standard</h2>
+
+                  <p>Check it meets the WCAG 2.1 latest guidelines for AA standard.
+                     <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">View the quick reference</a> and a
+                     handy <a href="https://webaim.org/standards/wcag/WCAG2Checklist.pdf" target="_blank">checklist</a>.</p>
+
+                  <p>Check out these posters from the Home Office Digital and how to make your designs more accessible:
+                     <a href="https://medium.com/@millyshaw/6-posters-to-help-make-your-digital-designs-more-accessible-4bc6852956e2" target="_blank">
+                     posters dos and don'ts</a></p>
+                  
+                  <p>Please note there is a difference between <a href="https://www.w3.org/TR/WCAG21/#interpreting-normative-requirements" target="_blank">‘normative’</a>
+                     and <a href="https://www.w3.org/WAI/WCAG21/Understanding/" target="_blank">‘informative’</a>, when assessing the level of accessibility that goes into a project. </p>
+                  
+                  <p>'Normative' is required for compliance whereas 'Informative' is never required for conformance, and is for information purposes only. Read the 
+                      <a href="https://docs.google.com/document/d/1L9OYaP052j2uxVu-8IXGxzwQsHdx8G6YKrxpHo7BZ_w/edit#heading=h.hxqcpplod8f" target="_blank">Accessibility interpretation problem</a> 
+                      for more information.</p>
+                  
+              </div>
+              
+              <div>
+                 <input id="checkbox1" type="checkbox" class="labelauty">
+                    <label for="checkbox1">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          <div class="cards">
+              <div class="img">
+                    <img class="left" src="images/automated_tools.svg" alt="Automated tools for checking accessibility">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Automated tools</h2>
+
+                   <p>Accessibility checks can be automated with tools such as 
+                       <a href="https://developers.google.com/web/tools/lighthouse/" target="_blank">Lighthouse</a>
+                       and <a href="https://wave.webaim.org/" target="_blank">WAVE</a>. </p>
+                   
+                   <p>Additional tools include: Chrome developer tools, <a href="https://addyosmani.com/a11y/" target="_blank">
+                      A11y</a>, WebAim <a href="https://webaim.org/resources/contrastchecker/" target="_blank">colour contrast checker</a>
+                       amongst others.</p>
+                   
+                   <p>Here is a useful article on how <a href="https://www.gov.uk/service-manual/technology/testing-for-accessibility" target="_blank">GDS test for accessibility</a>.</p>
+                   
+              </div>
+              
+             <div>
+                 <input id="checkbox2" type="checkbox" class="labelauty">
+                    <label for="checkbox2">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          <div class="cards">              
+              
+              <div class="img">
+                    <img class="left" src="images/manual_checks.svg" alt="Manual checks for accessibility">
+                </div>
+              
+               <div class="card-content">
+                  <h2>Manual checks</h2>
+
+                  <p>Automated tools do not replace testing or expertise.                     
+                     Read more about the  <a href="https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/" target="_blank">pros and cons of using tools</a>.
+                  </p>
+                   
+                   <p>We do two types of UX testing at OCC for accessibility: <a href="https://www.nngroup.com/articles/ux-expert-reviews/" target="_blank">expert evaluation</a> and 
+                      <a href="https://www.interaction-design.org/literature/topics/usability-testing" target="_blank">user testing</a>. 
+                      This allows us to pick up problems quickly and fix issues before we test with users. </p>
+                   
+                  <p>You can download free screen reader software, I recommend <a href="https://www.nvaccess.org/download/" target="_blank">NVDA</a>.</p>
+               </div>
+
+              <div>
+                 <input id="checkbox3" type="checkbox" class="labelauty">
+                    <label for="checkbox3">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+              
+              
+          </div>  
+          
+          
+          <!-- Accessibility card end -->
+          
+                 <!-- Copywriting card start -->
+      
+          <div class="tab tabCopywriting">
+              <h2 class="subjectArea">Copywriting</h2>
+          </div>
+          
+          <div class="cards">
+                   <div class="img">
+                    <img class="left" src="images/spellcheck.svg" alt="Spellcheck and grammar checks">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Spellcheck</h2>
+
+                   <p>Check for consistent use of sentence case, proofread, spell and grammar check any text-based
+                      content.</p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox4" type="checkbox" class="labelauty">
+                    <label for="checkbox4">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          <div class="cards">
+              <div class="img">
+                    <img class="left" src="images/line_length.svg" alt="Line length">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Line length</h2>
+
+                   <p>Reading a long line of type can cause fatigue, too short a line and it breaks words and phrases that are meant to
+                      be read as a unit. The ideal line length is 45 – 75 characters. Read an article on 
+                      <a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/" target="_blank">
+                      balancing line length and font size</a>.</p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox5" type="checkbox" class="labelauty">
+                    <label for="checkbox5">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          <div class="cards">              
+              
+              <div class="img">
+                    <img class="left" src="images/Heading-Tag.png" alt="Visual Hierarchy">
+                </div>
+              
+               <div class="card-content">
+                  <h2>Visual hierarchy</h2>
+
+                  <p>Create a visual organisation using headings, taking advantage of scanning patterns such as 
+                      <a href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/" target="_blank">F-pattern</a>, using contrast to 
+                      generate interest, colour, size and space. Read more on understanding 
+                      <a href="https://www.awwwards.com/understanding-web-ui-visual-hierarchy.html" target="_blank">visual hierarchy</a>.
+                  </p>
+
+                  
+               </div>
+
+              <div>
+                 <input id="checkbox6" type="checkbox" class="labelauty">
+                    <label for="checkbox6">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          
+          <!-- Copywriting card end -->
+          
+          
+          
+
+          <!-- Design card start -->
+      
+          <div class="tab tabDesign">
+              <h2 class="subjectArea">Design</h2>
+          </div>
+          
+          <div class="cards">
+               <div class="img">
+                    <img class="left" src="images/consistency.svg" alt="Design - consistency">
+                </div>
+              
+              <div class="card-content">
+                  <h2>Consistency</h2>
+
+                  <p>Ensure consistency of layout, behaviours such as buttons, navigation and any other key elements.</p>
+                  
+                  <p>Designing using a grid can help ensure your design achieves effective hierarchy, alignment and consistency.
+                     Read more about <a href="https://www.smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids/" target="_blank">
+                     building better UIs with grid based layouts</a>.</p>
+                  
+              </div>
+              
+              <div>
+                 <input id="checkbox7" type="checkbox" class="labelauty">
+                    <label for="checkbox7">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          <div class="cards">
+              <div class="img">
+                    <img class="left" src="images/ui_elements.svg" alt="UI Elements">
+                </div>
+
+              
+               <div class="card-content">
+                   <h2>UI elements</h2>
+
+                   <p>Reuse elements and patterns such as popualr pattern libraries and UI kits. 
+                      Follow style guidelines where they already exist or create your own - 
+                      <a href="http://styleguides.io/" target="_blank">see examples of styles guides here</a>.</p>
+                   
+                   <p>Some useful reading below: <br /><a href="https://www.uxpin.com/studio/blog/design-systems-vs-pattern-libraries-vs-style-guides-whats-difference/" target="_blank">
+                       Design Systems vs. Pattern Libraries vs. Style Guides - What's the difference?</a></p>
+                   
+                   <p><a href="https://material.io/design/" target="_blank">Material Design</a></p>
+                   <p><a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/" target="_blank">iOS Design Themes</a></p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox8" type="checkbox" class="labelauty">
+                    <label for="checkbox8">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          <div class="cards">              
+              
+              <div class="img">
+                    <img class="left" src="images/assets.svg" alt="Handover of UI assets">
+                </div>
+              
+               <div class="card-content">
+                  <h2>Handover of assets</h2>
+
+                  <p>Handover of assets including UI elements, images, icons etc., any interactions and gestures where necessary.
+                     Here is a <a href="https://uxdesign.cc/https-medium-com-91bilal-guide-to-successful-design-handoffs-18345f42d5d6" target="_blank">
+                     useful guide on succesful design handoffs</a>. </p>
+                      
+                   <p>Specs and assets can be automated using tools such as 
+                    <a href="https://zeplin.io/?ref=uxtools.co" target="_blank">Zeplin</a>, or 
+                    <a href="http://blog.invisionapp.com/insight-ui-designers-developers-collaboration/" target="_blank">InVision's Inspect</a> making
+                    life much easier!.
+                  </p>                 
+               </div>
+
+              <div>
+                 <input id="checkbox9" type="checkbox" class="labelauty">
+                    <label for="checkbox9">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          
+          <!-- Design card end -->
+          
+          
+            <!-- Development card start -->
+      
+          <div class="tab tabDevelopment">
+              <h2 class="subjectArea">Development</h2>
+          </div>
+          
+          <div class="cards">
+               <div class="img">
+                    <img class="left" src="images/consistency_dev.svg" alt="Development - Consistency with wireframes">
+                </div>
+              
+              <div class="card-content">
+                  <h2>Consistency</h2>
+
+                  <p>Check consistency with the wireframes, icons and favicon (if there is one).</p>
+                  
+              </div>
+              
+              <div>
+                 <input id="checkbox10" type="checkbox" class="labelauty">
+                    <label for="checkbox10">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          <div class="cards">
+              <div class="img">
+                    <img class="left" src="images/responsive.svg" alt="Responsive design">
+                </div>
+
+              
+               <div class="card-content">
+                   <h2>Responsive</h2>
+
+                   <p>Check cross-browser and on real devices where possible. Ensure relative units are used.</p>
+                   
+                   <p><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/" target="_blank">
+                      Fundamentals of responsive design</a></p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox11" type="checkbox" class="labelauty">
+                    <label for="checkbox11">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          <div class="cards">              
+              
+              <div class="img">
+                    <img class="left" src="images/handover_assets.svg" alt="Images">
+                </div>
+              
+               <div class="card-content">
+                  <h2>Images</h2>
+
+                  <p>Ensure svg is used for images with some exceptions such as WordPress.
+                  </p>                 
+               </div>
+
+              <div>
+                 <input id="checkbox12" type="checkbox" class="labelauty">
+                    <label for="checkbox12">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          
+          <!-- Development card end -->
+          
+          <!-- Feedback card start -->
+      
+          <div class="tab tabFeedback">
+              <h2 class="subjectArea">Give Feedback</h2>
+          </div>
+          
+          <div class="cards">
+                   <div class="img">
+                    <img class="left" src="images/Spam.png" alt="Errors">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Errors</h2>
+
+                   <p>Check users can easily recover from errors for example by using error messages and clear actions. 
+                       <a href="http://uxmag.com/articles/failing-gracefully" target="_blank">Read more on failing gracefully</a>.</p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox13" type="checkbox" class="labelauty">
+                    <label for="checkbox13">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          <div class="cards">
+              <div class="img">
+                    <img class="left" src="images/waiting_times.svg" alt="waiting times">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Waiting times</h2>
+
+                   <p>If your users have to wait ages for the page to load, show them a loader so they are aware
+                       that something is happening. 
+                       Read  <a href="https://www.sitepoint.com/3-tips-make-application-feel-faster/" target="_blank">3 tips to make
+                       your application <em>feel</em> faster</a>.</p>
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox14" type="checkbox" class="labelauty">
+                    <label for="checkbox14">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          <div class="cards">              
+              
+              <div class="img">
+                    <img class="left" src="images/actions.svg" alt="User feedback - actions">
+                </div>
+              
+               <div class="card-content">
+                  <h2>Actions</h2>
+
+                  <p>Give immediate and clear feedback of successful user's actions. Don't always wait for server response. 
+                    Perception is not reality and there are useful techniques for making apps <em>feel</em> faster than
+                    they actually are.
+                    Read more on  <a href="https://www.lukew.com/ff/entry.asp?1759" target="_blank">performing actions
+                      optimistically</a>.</p>
+               </div>
+
+              <div>
+                 <input id="checkbox15" type="checkbox" class="labelauty">
+                    <label for="checkbox15">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>  
+          
+          
+          <!-- Feedback card end -->
+          
+          
+          <!-- Performance card start -->
+      
+          <div class="tab tabPerformance">
+              <h2 class="subjectArea">Performance</h2>
+          </div>
+          
+          <div class="cards">
+                   <div class="img">
+                    <img class="left" src="images/loading.svg" alt="Loading times and performance">
+                </div>
+              
+               <div class="card-content">
+                   <h2>Loading times</h2>
+
+                   <p>Check page speed and loading times and ensure images are optimised. 
+                      Read more on <a href="https://www.impactbnd.com/blog/the-importance-of-website-load-time" target="_blank">how to improve
+                       website performance</a> and an <a href="https://images.guide/" target="_blank">essential guide on image optimisation</a>.</p>
+                   
+                   
+              </div>
+              
+              <div>
+                 <input id="checkbox16" type="checkbox" class="labelauty">
+                    <label for="checkbox16">
+                        <span class="labelauty-unchecked-image"></span><span class="labelauty-checked-image"></span>
+                  </label>
+                </div>
+          </div>
+          
+          
+          
+          
+          <!-- Performance card end -->
+             
+          
+          
+       
+      </div>
+
+      
+  <script>
+      function uncheckAll() {
+  $("input[type='checkbox']:checked").prop("checked", false)
+}
+$(':button').on('click', uncheckAll)
+      </script>
+
+
+  </body>
+</html>
